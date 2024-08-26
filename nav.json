@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome":"Vai alla homepage",
+        "url": "index.php",
+        "title": "Homepage"
+    },
+    {
+        "id": 2,
+        "nome":"vai ai miei lavori",
+        "url": "Lavori.php",
+        "title": "Lavori"
+    },
+    {
+        "id": 3,
+        "nome":"Vai ai miei contatti",
+        "url": "Form.php",
+        "title": "Contatti"
+    }
+]

@@ -1,0 +1,61 @@
+@import 'font';
+  
+        /*progetto*/
+
+        p {
+            font-size: 22px;
+        }
+
+        .work{
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 90px;
+            padding: 40px;
+        }
+
+        .work-text {
+            margin: 10px;
+            padding: 20px;
+        }
+
+      
+
+        /*media queries smartphone*/
+
+
+        @media screen and (max-width:800px) {
+            .work {
+                margin-bottom: 10px;
+                padding: 0;
+                width: 100%;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            img {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+                /*media queries tablet*/
+
+
+                @media screen and (max-width:1024px) {
+                    .work {
+                        margin: 0;
+                        padding: 10px;
+                        width: 100%;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+        
+                    img {
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                        height: auto;
+                    }
+                }

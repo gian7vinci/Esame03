@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "nome":"Seguici su facebook",
+        "url": "https://facebook.com",
+        "title": "Facebook"
+    },
+    {
+        "id": 2,
+        "nome":"Seguici su istagram",
+        "url": "https://instagram.com",
+        "title": "Instagram"
+    },
+    {
+        "id": 3,
+        "nome":"seguici su X",
+        "url": "https://X.com",
+        "title": "X"
+    }
+
+]

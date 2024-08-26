@@ -1,0 +1,202 @@
+.abilita {
+    align-content: center;   
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+    :hover {
+        transition: 0.6s ease-in-out;
+        border-radius: 50%;
+    }
+}
+.skill {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 60px;
+    border: 5px solid linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    border-radius: 3px;
+    justify-content: center;
+    h3 {
+        text-align: center;
+        align-content: center;
+    }
+}
+
+img {
+    border-radius: 20px;
+}
+
+.linguaggi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servizi {
+    align-content: center;
+    filter: grayscale(100%);
+    padding: 50px;
+    :hover {
+        transform: scale(0.7);
+        filter: grayscale(0%);
+    }
+    
+}
+.viola {
+    color: #9a6aff;
+}
+.testo {
+    margin-left: 60px;
+}
+.presentazione {
+    display: flex;
+    
+}
+.personale {
+    margin-left: 240px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 10px #996affaf;
+    transform: translate(-5px, -10px);
+    img {
+        border-radius: 50%;
+        height: 500px;
+    }
+    :hover {
+        transform: translate(-5px, -10px);
+    }
+}
+
+/*media query per smartphone*/
+
+@media screen and (max-width:800px) {
+
+    .presentazione {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .testo {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+        h1 {margin-left: 0;}
+    }
+    .personale {
+        display: none;
+    }
+    .abilita {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
+    }
+    .skill {
+        align-content: center;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .linguaggi {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .servizi {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 0;
+    }
+   
+
+    
+
+
+}
+
+/*media query per tablet*/
+
+@media screen and (max-width:1024px) {
+
+
+    .presentazione {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .testo {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+        h1 {margin-left: 0;}
+    }
+    .personale {
+        display: none;
+    }
+    .abilita {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+    .skills{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .skill {
+        align-content: center;
+        padding: 0;
+        margin: 20px;
+        
+    }
+    .linguaggi {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .servizi {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 0;
+    }
+   
+
+
+
+
+}
